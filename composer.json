@@ -1,7 +1,7 @@
 {
     "name": "cortex/pages-tenantable",
     "description": "Cortex Pages is a frontend layer for an integral part of your Laravel content management system (CMS), it affords an easy, yet powerful way to create and manage pages with full control over their URLs, active status, titles, content, and other attributes.",
-    "type": "cortex-module",
+    "type": "cortex-extension",
     "keywords": [
         "ajax",
         "async",
@@ -86,7 +86,7 @@
         "optimize-autoloader": true
     },
     "extra": {
-        "cortex-module": {
+        "cortex": {
             "extends": "cortex/pages"
         }
     },
