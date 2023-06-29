@@ -5,8 +5,8 @@ declare(strict_types=1);
 namespace Cortex\Pages\Http\Controllers\Managerarea;
 
 use Illuminate\Support\Str;
-use Cortex\Foundation\Models\Media;
 use Cortex\Pages\Models\Page;
+use Cortex\Foundation\Models\Media;
 use Cortex\Foundation\DataTables\MediaDataTable;
 use Cortex\Foundation\Http\Requests\ImageFormRequest;
 use Cortex\Foundation\Http\Controllers\AuthorizedController;
@@ -42,7 +42,7 @@ class PagesMediaController extends AuthorizedController
      * List all page media.
      *
      * @param \Cortex\Foundation\DataTables\MediaDataTable $mediaDataTable
-     * @param \Cortex\Pages\Models\Page         $page
+     * @param \Cortex\Pages\Models\Page                    $page
      *
      * @return \Illuminate\Http\JsonResponse|\Illuminate\Http\RedirectResponse
      */
@@ -60,7 +60,7 @@ class PagesMediaController extends AuthorizedController
      * Store new page media.
      *
      * @param \Cortex\Foundation\Http\Requests\ImageFormRequest $request
-     * @param \Cortex\Pages\Models\Page              $page
+     * @param \Cortex\Pages\Models\Page                         $page
      *
      * @return void
      */
@@ -76,8 +76,8 @@ class PagesMediaController extends AuthorizedController
     /**
      * Destroy given page media.
      *
-     * @param \Cortex\Pages\Models\Page  $page
-     * @param \Cortex\Foundation\Models\Media       $media
+     * @param \Cortex\Pages\Models\Page       $page
+     * @param \Cortex\Foundation\Models\Media $media
      *
      * @return \Illuminate\Http\JsonResponse|\Illuminate\Http\RedirectResponse
      */
