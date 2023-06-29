@@ -5,14 +5,14 @@ declare(strict_types=1);
 namespace Cortex\Pages\Http\Controllers\Managerarea;
 
 use Illuminate\Http\Request;
-use Cortex\Foundation\Http\FormRequest;
 use Cortex\Pages\Models\Page;
+use Cortex\Foundation\Http\FormRequest;
 use Cortex\Foundation\DataTables\LogsDataTable;
 use Cortex\Foundation\Importers\InsertImporter;
 use Cortex\Foundation\Http\Requests\ImportFormRequest;
-use Cortex\Foundation\Http\Controllers\AuthorizedController;
 use Cortex\Pages\DataTables\Managerarea\PagesDataTable;
 use Cortex\Pages\Http\Requests\Managerarea\PageFormRequest;
+use Cortex\Foundation\Http\Controllers\AuthorizedController;
 
 class PagesController extends AuthorizedController
 {

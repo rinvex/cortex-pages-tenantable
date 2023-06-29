@@ -4,8 +4,8 @@ declare(strict_types=1);
 
 namespace Cortex\Pages\DataTables\Managerarea;
 
-use Illuminate\Http\JsonResponse;
 use Cortex\Pages\Models\Page;
+use Illuminate\Http\JsonResponse;
 use Cortex\Pages\Transformers\PageTransformer;
 use Cortex\Foundation\DataTables\AbstractDataTable;
 
