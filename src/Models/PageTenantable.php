@@ -5,9 +5,8 @@ declare(strict_types=1);
 namespace Cortex\Pages\Models;
 
 use Rinvex\Tenants\Traits\Tenantable;
-use Cortex\Pages\Models\Page as BasePage;
 
-class PageTenantable extends BasePage
+class PageTenantable extends Page
 {
     use Tenantable;
 
