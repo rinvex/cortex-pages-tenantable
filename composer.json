@@ -80,6 +80,11 @@
         "optimize-autoloader": true
     },
     "extra": {
+        "laravel": {
+            "providers": [
+                "Cortex\\Pages\\Providers\\PagesTenantableServiceProvider"
+            ]
+        },
         "cortex": {
             "extends": "cortex/pages"
         }
