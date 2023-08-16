@@ -4,9 +4,9 @@ declare(strict_types=1);
 
 namespace Cortex\Pages\Providers;
 
+use Cortex\Pages\Models\PageTenantable;
 use Illuminate\Support\ServiceProvider;
 use Rinvex\Support\Traits\ConsoleTools;
-use Cortex\Pages\Models\PageTenantable;
 
 class PagesTenantableServiceProvider extends ServiceProvider
 {
